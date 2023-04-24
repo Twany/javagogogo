@@ -1,0 +1,45 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/19.8.0/bin/node /opt/homebrew/bin/yarn add -D @vuepress/plugin-back-to-top@next
+
+PATH: 
+  /Users/yyk/.gem/ruby/3.0.0/bin:/Users/yyk/.gem/ruby/3.0.0/bin:/Users/yyk/.gem/ruby/3.0.0/bin:/Users/yyk/.gem/ruby/3.0.0/bin:/opt/homebrew/opt/ruby/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/yyk/.gem/ruby/3.0.0/bin:/opt/homebrew/opt/ruby/bin:/Users/yyk/.cargo/bin:/Users/yyk/.fig/bin:/Users/yyk/.local/bin:/Users/yyk/Downloads/gradle-7.5.1/bin:/Users/yyk/Downloads/gradle-7.5.1:/usr/local/mysql/bin:/Users/yyk/Downloads/gradle-7.5.1:/usr/local/mysql/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.8.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/vuepress: tunneling socket could not be established, cause=connect ECONNREFUSED 127.0.0.1:33210
+      at ClientRequest.onError (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:152376:17)
+      at Object.onceWrapper (node:events:627:26)
+      at ClientRequest.emit (node:events:512:28)
+      at Socket.socketErrorListener (node:_http_client:495:9)
+      at Socket.emit (node:events:512:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "tech-arch-doc",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "dev": "vuepress dev",
+      "build": "vuepress build"
+    },
+    "devDependencies": {
+      "vuepress": "^1.9.9"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

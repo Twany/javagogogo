@@ -1,0 +1,19 @@
+{
+  "name": "tech-arch-doc",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^2.0.0-beta.61",
+    "@vuepress/plugin-medium-zoom": "^2.0.0-beta.61",
+    "vuepress": "^1.9.9",
+    "vuepress-plugin-baidu-autopush": "^1.0.1"
+  },
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-sitemap": "^2.3.1"
+  }
+}
